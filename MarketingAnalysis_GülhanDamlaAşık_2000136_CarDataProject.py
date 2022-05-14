@@ -1,7 +1,5 @@
 ###################################################
-###  MARKETING ANALYTICS                        ###
-###   Gülhan Damla Aşık 2000136                 ###
-###   Midterm Project - Car Data Classification ###
+###    Car Data Classification                  ###
 ###################################################
 
 import numpy as np 
@@ -20,7 +18,7 @@ from sklearn.inspection import permutation_importance
 
 import os
 os.getcwd()
-os.chdir("C:/Users/user/Desktop/BAU Lessons/2- Marketing Analysis/Project/Car Data Project")
+os.chdir("C:/Users/user/.../Car Data Project")
 
 cols =["buying", "maint", "doors", "persons","lug_boot",  "safety" , "target"]
 CarDF0 = pd.read_csv("car_data.csv", sep=",", index_col=False)
